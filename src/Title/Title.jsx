@@ -1,10 +1,10 @@
 import "./Title.css" 
-
+import Logo from "../assets/logo.png"
 export default function Title() {
     return (
         <div className="title">
-            <h1>Laboratorios Obregon</h1>
-            <p>Ubicado en Cananea, Sonora</p>
+            <img src={Logo} alt="Logo" id = "title-logo"/>
+            <h4 id = "title-subtitle">Ubicado en Cananea, Sonora</h4>
         </div>
     );
 }

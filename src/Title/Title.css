@@ -2,11 +2,32 @@
     max-width: 100%;
     background-color: #FDFAE3;
     width: 100vw;
-    height: 90vh;
+    height: 70vh;
     color: black; 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
 
+}
+
+#title-subtitle { 
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+#title-logo {
+    /* Styles for desktop */
+    width: 40%;
+    height: auto;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    #title-logo {
+        /* Styles for mobile */
+        width: 90%;
+        height: auto;
+    }
 }
