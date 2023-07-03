@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "ol": "^7.4.0",
+    "openlayers": "^4.6.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
