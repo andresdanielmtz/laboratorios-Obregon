@@ -1,0 +1,11 @@
+.QueSomos { 
+    max-width: 100%;
+    background-color: #e7d866;
+    width: 100vw;
+    height: 90vh;
+    color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
