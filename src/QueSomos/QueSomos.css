@@ -7,5 +7,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: row; 
+}
+
+#QueSomos-content { 
+    text-align: justify;
+    margin-right: 5rem;
+    padding-left: 10rem;
+}
+
+#QueSomos-spImg { 
+    width: 100%; 
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    object-fit: none;
+    margin-top: none;
+    margin-left: 5rem; 
+    padding-right: 10rem;
+
+}
+
+@media (max-width: 767px) {
+    #QueSomos-img { 
+        display: none;
+    }
+
+    #QueSomos-content { 
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #QueSomos-spImg { 
+        width: auto;
+    }
+
+    #QueSomos-content { 
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
 }

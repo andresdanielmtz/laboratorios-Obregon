@@ -23,11 +23,25 @@
     height: auto;
 }
 
+/* Media query for ipads, logo will be bigger */ 
+@media (min-width: 768px) and (max-width: 1024px) {
+    #title-logo {
+        /* Styles for ipads */
+        width: 70%;
+        height: auto;
+    }
+    .title { 
+        height: 40vh;
+    }
+}
 /* Media query for mobile devices */
 @media (max-width: 767px) {
     #title-logo {
         /* Styles for mobile */
         width: 90%;
         height: auto;
+    }
+    .title { 
+        height: 90vh;
     }
 }

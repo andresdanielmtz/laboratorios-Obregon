@@ -15,8 +15,7 @@ export default function Contacto() {
         </ul>
       </div>
       <h3> Horario de Atencion </h3>
-      <p> Lunes a Viernes: 7:30am - 5pm </p>
-     <p> Sabado: 8am - 1pm </p>
+      <p> Lunes a Viernes: 7:30am - 5:00pm <br /> Sabado: 8:00am - 1:00pm</p>
     </div>
   );
 }

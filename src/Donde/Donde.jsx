@@ -47,6 +47,7 @@ export default function Donde() {
       <div
         style={{ height: "70%", width: "80%" }}
         id="location-map"
+        class = "local-map"
         ref={mapRef}
       ></div>
       <p>
