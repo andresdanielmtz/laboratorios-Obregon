@@ -29,6 +29,9 @@
 }
 
 @media (max-width: 767px) {
+    .QueSomos { 
+        height: 100vh; 
+    }
     #QueSomos-img { 
         display: none;
     }
