@@ -43,7 +43,7 @@ export default function Donde() {
   }, []);
   return (
     <div className="donde">
-      <h1> Donde estamos</h1>
+      <h2 id = "donde-title"> ¿Dónde nos encontramos?</h2>
       <div
         style={{ height: "70%", width: "80%" }}
         id="location-map"

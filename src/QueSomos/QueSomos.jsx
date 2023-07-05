@@ -9,7 +9,7 @@ export default function QueSomos() {
         </div>
 
       <div id="QueSomos-content">
-        <h2 id="QueSomos-title"> ¿Quienes Somos? </h2>
+        <h2 id="QueSomos-title"> ¿Quiénes Somos? </h2>
         <p>
           {" "}
           Somos un laboratorio clínico especializado que brinda una amplia gama
