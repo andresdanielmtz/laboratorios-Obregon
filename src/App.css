@@ -1,4 +1,9 @@
 #root {
   margin: 0 auto;
   text-align: center;
+} 
+
+::selection {
+  background: #5d51cb;
+  color: #e8e7f5;
 }
