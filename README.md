@@ -1,5 +1,7 @@
 # Laboratorios Obregon
-### Página Oficial de Laboratorios Obregon, ubicada en Cananea, Sonora, México.
+### Official Website of Laboratorios Obregon, located in Cananea, Sonora, México.
+
+This project was made using Vite + React and Typescript. 
 
 To run this project, install it locally using npm:
 
